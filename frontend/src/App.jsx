@@ -27,7 +27,7 @@ function App() {
   const summaryRef = useRef(null);
 
   useEffect(() => {
-    axios.get("http://localhost:8000/")
+    axios.get("https://react-test-case-generator-app.onrender.com/")
       .then(res => setMsg(res.data.message))
       .catch(err => console.error(err));
   }, []);
@@ -42,7 +42,7 @@ function App() {
 
     setLoading(true);
     try {
-      const res = await axios.get("http://localhost:8000/list-files", {
+      const res = await axios.get("https://react-test-case-generator-app.onrender.com/list-files", {
         params: { owner, repo }
       });
 
@@ -83,7 +83,7 @@ function App() {
     }, 200);
 
     try {
-      const res = await axios.post("http://localhost:8000/generate-test-summaries", {
+      const res = await axios.post("https://react-test-case-generator-app.onrender.com/generate-test-summaries", {
         repoUrl: `https://github.com/${repoInput}`,
         selectedFiles: selectedFiles
       });
@@ -110,7 +110,7 @@ function App() {
     setLoadingTestCodeIndex(index);
 
     try {
-      const response = await fetch("http://localhost:8000/generate-test-code", {
+      const response = await fetch("https://react-test-case-generator-app.onrender.com/generate-test-code", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -143,7 +143,7 @@ function App() {
 
 const handleCreatePR = async (code, fileName) => {
   try {
-    const response = await fetch("http://localhost:8000/create-pr/", {
+    const response = await fetch("https://react-test-case-generator-app.onrender.com/create-pr/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
