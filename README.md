@@ -32,13 +32,13 @@ This is a full-stack web application that generates AI-based test case suggestio
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](screenshots/home.png)
+![Home Page](Screenshots/HomePage.png)
 
 ### 🧪 Generated Test Summary
-![Test Summary](screenshots/test-summary.png)
+![Test Summary](Screenshots/Test_Summary.png)
 
 ### ✍️ Create PR Flow
-![Create PR](screenshots/create-pr.png)
+![Create PR](Screenshots/Create_PR_Flow.png)
 
 ## 🎥 Demo Video
 
