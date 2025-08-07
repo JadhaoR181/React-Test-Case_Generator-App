@@ -26,8 +26,7 @@ This is a full-stack web application that generates AI-based test case suggestio
 | GitHub API  | GitHub REST API v3              |
 
 ---
-
-## 🖼️ UI Preview
+# 🖼️ UI Preview
 
 ## 📸 Screenshots
 
