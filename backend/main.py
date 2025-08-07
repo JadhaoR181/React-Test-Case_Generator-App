@@ -17,7 +17,7 @@ app = FastAPI()
 # Enable CORS for frontend access
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # safer than "*"
+    allow_origins=["https://react-test-case-generator-app.vercel.app/"],  # safer than "*"
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
