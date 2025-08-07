@@ -207,7 +207,7 @@ const handleCreatePR = async (code, fileName) => {
               </g>
             </svg>
           </span>
-          Test Case Generator
+          Test Case Generator <span className="status-msg">({msg})</span>
         </h1>
 
         <div className="repo-input">
