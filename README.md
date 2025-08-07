@@ -137,6 +137,13 @@ test-case-generator-app/
 
 ---
 
+## 🚀 Deployment
+
+- **Frontend (Vercel):** [https://react-test-case-generator-app.vercel.app](https://react-test-case-generator-app.vercel.app)  
+- **Backend (Render):** [https://react-test-case-generator-app.onrender.com](https://react-test-case-generator-app.onrender.com)
+
+---
+
 ## 📬 Contact
 
 **Ravindra Jadhav**  
