@@ -14,10 +14,16 @@ load_dotenv()
 
 app = FastAPI()
 
+
+origins = [
+    "https://react-test-case-generator-app.vercel.app",
+    "http://localhost:3000",  # optional, useful for local dev
+]
+
 # Enable CORS for frontend access
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://react-test-case-generator-app.vercel.app/"],  # safer than "*"
+    allow_origins=origins,  # or ["*"] for public APIs
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
