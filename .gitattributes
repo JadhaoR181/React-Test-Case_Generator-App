@@ -1,0 +1,10 @@
+# Tell linguist to count React (JS/JSX) properly
+*.js linguist-detectable=true
+*.jsx linguist-detectable=true
+*.css linguist-detectable=true
+
+# Ignore build + config files
+build/* linguist-vendored
+node_modules/* linguist-vendored
+*.json linguist-vendored
+*.lock linguist-vendored
